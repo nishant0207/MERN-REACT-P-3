@@ -1,0 +1,62 @@
+/* ColorPicker.css */
+
+body{
+    background-color: black;
+}
+
+.color-picker {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+  }
+
+  .color-display {
+    width: 90vw;
+    height: 80vh;
+    margin: 20px auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px 30px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .color-list {
+    display: flex;
+    position: relative;
+    justify-content: center;
+  }
+  
+  .Heading{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .color-option {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .pick-button{
+    position: absolute;
+    margin-top: 150px;
+    padding: 10px;
+    border: 0px;
+    background-color: green;
+    color: white;
+  }
+  
+  /* Add more styles as needed */
+  
